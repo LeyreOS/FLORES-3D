@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; overflow: hidden; background: #0b0510; }
+canvas {
+  position: fixed; inset: 0;
+  width: 100vw; height: 100vh;
+  display: block; cursor: grab; touch-action: none;
+}
+canvas:active { cursor: grabbing; }
+.hint {
+  position: fixed; left: 0; right: 0; bottom: 10px;
+  margin: 0; text-align: center; pointer-events: none;
+  font: 12px system-ui, sans-serif; letter-spacing: .04em; color: #7a6a86;
+}
